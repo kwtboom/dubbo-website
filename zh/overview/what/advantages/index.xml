@@ -1,92 +1,23 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Apache Dubbo – 核心优势</title><link>http://static.dubbo.apache.org:8080/zh/overview/what/advantages/</link><description>Recent content in 核心优势 on Apache Dubbo</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="http://static.dubbo.apache.org:8080/zh/overview/what/advantages/index.xml" rel="self" type="application/rss+xml"/><item><title>Overview: 易用性</title><link>http://static.dubbo.apache.org:8080/zh/overview/what/advantages/usability/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/what/advantages/usability/</guid><description>
-&lt;p>Dubbo 解决企业微服务从开发、部署到治理运维的一系列挑战，Dubbo 为开发者提供从项目创建、开发测试，到部署、可视化监测、流量治理，再到生态集成的全套服务。&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>开发层面&lt;/strong>，Dubbo 提供了 Java、Go、Rust、Node.js 等语言实现并定义了一套微服务开发范式，配套脚手架可用于快速创建微服务项目骨架&lt;/li>
-&lt;li>&lt;strong>部署层面&lt;/strong>，Dubbo 应用支持虚拟机、Docker 容器、Kubernetes、服务网格架构部署&lt;/li>
-&lt;li>&lt;strong>服务治理层面&lt;/strong>，Dubbo 提供了地址发现、负载均衡、流量管控等治理能力，官方还提供 Admin 可视化控制台、丰富的微服务生态集成&lt;/li>
-&lt;/ul>
-&lt;h2 id="开发">开发&lt;/h2>
-&lt;p>接下来以 Java 体系 Spring Boot 项目为例讲解 Dubbo 应用开发的基本步骤，整个过程非常直观简单，其他语言开发过程类似。&lt;/p>
-&lt;h3 id="创建项目">创建项目&lt;/h3>
-&lt;p>&lt;a href="">Dubbo 微服务项目脚手架&lt;/a>（支持浏览器页面、命令行和 IDE）可用于快速创建微服务项目，只需要告诉脚手架期望包含的功能或组件，脚手架最终可以帮助开发者生成具有必要依赖的微服务工程。&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Apache Dubbo – 核心优势</title><link>http://static.dubbo.apache.org:8080/zh/overview/what/advantages/</link><description>Recent content in 核心优势 on Apache Dubbo</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="http://static.dubbo.apache.org:8080/zh/overview/what/advantages/index.xml" rel="self" type="application/rss+xml"/><item><title>Overview: 快速易用</title><link>http://static.dubbo.apache.org:8080/zh/overview/what/advantages/usability/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/what/advantages/usability/</guid><description>
+&lt;p>无论你是计划采用微服务架构开发一套全新的业务系统，还是准备将已有业务从单体架构迁移到微服务架构，Dubbo 框架都可以帮助到你。Dubbo 让微服务开发变得非常容易，它允许你选择多种编程语言、使用任意通信协议，并且它还提供了一系列针对微服务场景的开发、测试工具帮助提升研发效率。&lt;/p>
+&lt;h2 id="多语言-sdk">多语言 SDK&lt;/h2>
+&lt;p>Dubbo 提供几乎所有主流语言的 SDK 实现，定义了一套统一的微服务开发范式。Dubbo 与每种语言体系的主流应用开发框架做了适配，总体编程方式、配置符合大多数开发者已有编程习惯。&lt;/p>
+&lt;p>比如在 Java 语言体系下，你可以使用 &lt;code>dubbo-spring-boot-starter&lt;/code> 来开发符合 Spring、Spring Boot 模式的微服务应用，开发 Dubbo
+应用只是为 Spring Bean 添加几个注解、完善 application.properties 配置文件。&lt;/p>
+&lt;p>&lt;img src="http://static.dubbo.apache.org:8080/imgs/v3/what/sdk.png" alt="sdk">&lt;/p>
+&lt;h2 id="任意通信协议">任意通信协议&lt;/h2>
+&lt;p>Dubbo 微服务间远程通信实现细节，支持 HTTP、HTTP/2、gRPC、TCP 等所有主流通信协议。与普通 RPC 框架不同，Dubbo 不是某个单一 RPC 协议的实现，它通过上层的 RPC 抽象可以将任意 RPC 协议接入 Dubbo 的开发、治理体系。&lt;/p>
+&lt;p>多协议支持让用户选型，多协议迁移、互通等变得更灵活。&lt;/p>
+&lt;p>&lt;img src="http://static.dubbo.apache.org:8080/imgs/v3/what/protocol.png" alt="protocols">&lt;/p>
+&lt;h2 id="加速微服务开发">加速微服务开发&lt;/h2>
+&lt;h3 id="项目脚手架">项目脚手架&lt;/h3>
+&lt;p>项目脚手架让 Dubbo 项目创建、依赖管理更容易。&lt;/p>
+&lt;p>比如通过如下可视化界面，勾选 Dubbo 版本、Zookeeper 注册中心以及必要的微服务生态选项后，一个完整的 Dubbo 项目模板就可以自动生成，接下来基于脚手架项目添加业务逻辑就可以了。&lt;/p>
 &lt;p>&lt;img src="http://static.dubbo.apache.org:8080/imgs/v3/advantages/initializer.png" alt="脚手架示例图">&lt;/p>
-&lt;h3 id="开发服务">开发服务&lt;/h3>
-&lt;p>&lt;strong>1. 定义服务&lt;/strong>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-java" data-lang="java">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#268bd2">public&lt;/span> &lt;span style="color:#268bd2">interface&lt;/span> &lt;span style="color:#268bd2">DemoService&lt;/span> &lt;span style="color:#719e07">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> String &lt;span style="color:#268bd2">hello&lt;/span>&lt;span style="color:#719e07">(&lt;/span>String arg&lt;span style="color:#719e07">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#719e07">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>2. 提供业务逻辑实现&lt;/strong>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-java" data-lang="java">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#268bd2">@DubboService&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#268bd2">public&lt;/span> &lt;span style="color:#268bd2">class&lt;/span> &lt;span style="color:#268bd2">DemoServiceImpl&lt;/span> &lt;span style="color:#268bd2">implements&lt;/span> DemoService &lt;span style="color:#719e07">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#268bd2">public&lt;/span> String &lt;span style="color:#268bd2">hello&lt;/span>&lt;span style="color:#719e07">(&lt;/span>String arg&lt;span style="color:#719e07">)&lt;/span> &lt;span style="color:#719e07">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#586e75">// put your microservice logic here
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#586e75">&lt;/span> &lt;span style="color:#719e07">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#719e07">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="发布服务">发布服务&lt;/h3>
-&lt;p>&lt;strong>1. 发布服务定义&lt;/strong>&lt;/p>
-&lt;p>为使消费方顺利调用服务，服务提供者首先要将服务定义以 Jar 包形式发布到 Maven 中央仓库。&lt;/p>
-&lt;p>&lt;strong>2. 对外暴露服务&lt;/strong>&lt;/p>
-&lt;p>补充 Dubbo 配置并启动 Dubbo Server&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#268bd2">dubbo&lt;/span>:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#268bd2">application&lt;/span>:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#268bd2">name&lt;/span>: dubbo-demo
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#268bd2">protocol&lt;/span>:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#268bd2">name&lt;/span>: dubbo
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#268bd2">port&lt;/span>: -&lt;span style="color:#2aa198">1&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#268bd2">registry&lt;/span>:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#268bd2">address&lt;/span>: zookeeper://127.0.0.1:2181
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="调用服务">调用服务&lt;/h3>
-&lt;p>首先，消费方通过 Maven/Gradle 引入 &lt;code>DemoService&lt;/code> 服务定义依赖。&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-xml" data-lang="xml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#268bd2">&amp;lt;dependency&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#268bd2">&amp;lt;groupId&amp;gt;&lt;/span>org.apache.dubbo&lt;span style="color:#268bd2">&amp;lt;/groupId&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#268bd2">&amp;lt;artifactId&amp;gt;&lt;/span>dubbo-demo-interface&lt;span style="color:#268bd2">&amp;lt;/artifactId&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#268bd2">&amp;lt;version&amp;gt;&lt;/span>3.2.0&lt;span style="color:#268bd2">&amp;lt;/version&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#268bd2">&amp;lt;/dependency&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>编程注入远程 Dubbo 服务实例&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-java" data-lang="java">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#268bd2">@Bean&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#268bd2">public&lt;/span> &lt;span style="color:#268bd2">class&lt;/span> &lt;span style="color:#268bd2">Consumer&lt;/span> &lt;span style="color:#719e07">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#268bd2">@DubboReference&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#268bd2">private&lt;/span> DemoService demoService&lt;span style="color:#719e07">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#719e07">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>以上是 Dubbo 微服务开发的流程性说明，实际开发的详细指导步骤请参见：&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="">Java 微服务开发入门&lt;/a>&lt;/li>
-&lt;li>&lt;a href="">Go 微服务开发入门&lt;/a>&lt;/li>
-&lt;li>&lt;a href="">Rust 微服务开发入门&lt;/a>&lt;/li>
-&lt;li>&lt;a href="">Node.js 微服务开发入门&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="部署">部署&lt;/h2>
-&lt;p>Dubbo 原生服务可打包部署到 Docker 容器、Kubernetes、服务网格 等云原生基础设施和微服务架构。&lt;/p>
-&lt;p>关于不同环境的部署示例，可参考：&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="">部署 Dubbo 服务到 Docker 容器&lt;/a>&lt;/li>
-&lt;li>&lt;a href="">部署 Dubbo 服务到 Kubernetes&lt;/a>&lt;/li>
-&lt;li>&lt;a href="">部署 Dubbo 服务到 Service Mesh&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="治理">治理&lt;/h2>
-&lt;p>对于服务治理，绝大多数应用只需要增加以下配置即可，Dubbo 应用将具备地址发现和负载均衡能力。&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#268bd2">dubbo&lt;/span>:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#268bd2">registry&lt;/span>:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#268bd2">address&lt;/span>: zookeeper://127.0.0.1:2181
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>部署并打开 &lt;a href="">Dubbo Admin 控制台&lt;/a>，可以看到集群的服务部署和调用数据&lt;/p>
-&lt;p>&lt;img src="http://static.dubbo.apache.org:8080/imgs/v3/what/admin.png" alt="Admin">&lt;/p>
-&lt;p>除此之外，Dubbo Amin 还可以通过以下能力提升研发测试效率&lt;/p>
-&lt;ul>
-&lt;li>文档管理，提供普通服务、IDL 文档管理&lt;/li>
-&lt;li>服务测试 &amp;amp; 服务 Mock&lt;/li>
-&lt;li>服务状态查询&lt;/li>
-&lt;/ul>
-&lt;p>对于更复杂的微服务实践场景，Dubbo 还提供了更多高级服务治理特性，具体请参见文档了解更多。包括：&lt;/p>
-&lt;ul>
-&lt;li>流量治理&lt;/li>
-&lt;li>动态配置&lt;/li>
-&lt;li>限流降级&lt;/li>
-&lt;li>数据一致性&lt;/li>
-&lt;li>可观测性&lt;/li>
-&lt;li>多协议&lt;/li>
-&lt;li>多注册中心&lt;/li>
-&lt;li>服务网格&lt;/li>
-&lt;/ul></description></item><item><title>Overview: 高性能</title><link>http://static.dubbo.apache.org:8080/zh/overview/what/advantages/performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/what/advantages/performance/</guid><description>
+&lt;h3 id="开发测试">开发测试&lt;/h3>
+&lt;p>相比于单体应用，微服务分布式的特性会让不同组织之间的研发协同变得困难，这时我们需要有效的配套工具，用来提升整体的微服务研发效率。&lt;/p>
+&lt;p>Dubbo 从内核设计和实现阶段就考虑了如何解决开发、测试与运维问题，配合官方提供的生态工具，可以实现服务测试、服务 Mock、文档管理、单机运维等能力，并通过 Dubbo Admin 控制台将所有操作都可视化的展现出来。&lt;/p>
+&lt;p>&lt;img src="http://static.dubbo.apache.org:8080/imgs/v3/what/admin.png" alt="admin">&lt;/p></description></item><item><title>Overview: 超高性能</title><link>http://static.dubbo.apache.org:8080/zh/overview/what/advantages/performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/what/advantages/performance/</guid><description>
 &lt;p>Dubbo 被设计用于解决阿里巴巴超大规模的电商微服务集群实践，并在各个行业头部企业经过多年的十万、百万规模的微服务实践检验，因此，Dubbo 在通信性能、稳定性方面具有无可比拟的优势，非常适合构建近乎无限水平伸缩的微服务集群，这也是 Dubbo 从实践层面优于业界很多同类的产品的巨大优势。&lt;/p>
 &lt;h2 id="高性能数据传输">高性能数据传输&lt;/h2>
 &lt;p>Dubbo 内置支持 Dubbo2、Triple 两款高性能通信协议。其中&lt;/p>
@@ -117,20 +48,10 @@
 &lt;li>&lt;a href="">Dubbo3 服务发现&lt;/a>&lt;/li>
 &lt;li>&lt;a href="">流量管控&lt;/a>&lt;/li>
 &lt;li>&lt;a href="">源码解析&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Overview: 流量治理</title><link>http://static.dubbo.apache.org:8080/zh/overview/what/advantages/traffic-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/what/advantages/traffic-management/</guid><description>
-&lt;p>Dubbo 丰富的流量管控规则可以控制服务间的流量走向和 API 调用，基于这些规则可以实现在运行态动态的调整服务行为如超时时间、重试次数、限流参数等，通过控制流量分布可以实现 A/B 测试、金丝雀发布、多版本按比例流量分配、条件匹配路由、黑白名单等，提高系统稳定性。&lt;/p>
-&lt;h2 id="dubbo-的流量管控体系">Dubbo 的流量管控体系&lt;/h2>
-&lt;p>在地址发现和负载均衡机制之外，Dubbo 还提供了更细粒度的管控流入、流出 Dubbo 集群流量的机制。&lt;/p>
-&lt;p>Dubbo 的流量管控规则可以基于应用、服务、方法、参数等粒度精准的控制流量走向。从流量管控的视角，Dubbo 的流量管控就是根据请求的目标服务、方法以及请求体中的其他附加参数进行匹配，符合匹配条件的流量会进一步的按照特定规则转发到一个地址子集。流量管控规则有以下几种：&lt;/p>
-&lt;ul>
-&lt;li>条件路由规则&lt;/li>
-&lt;li>标签路由规则&lt;/li>
-&lt;li>脚本路由规则&lt;/li>
-&lt;li>动态配置规则&lt;/li>
-&lt;li>云原生路由规则&lt;/li>
-&lt;/ul>
-&lt;p>规则定义详情请参见 &lt;a href="../../../core-features/traffic/">Dubbo 流量管控规则设计与定义&lt;/a>&lt;/p>
-&lt;h2 id="dubbo-流量管控能解决哪些问题">Dubbo 流量管控能解决哪些问题&lt;/h2>
+&lt;/ul></description></item><item><title>Overview: 服务治理</title><link>http://static.dubbo.apache.org:8080/zh/overview/what/advantages/governance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/what/advantages/governance/</guid><description>
+&lt;h2 id="流量管控">流量管控&lt;/h2>
+&lt;p>在地址发现和负载均衡机制之外，Dubbo 丰富的流量管控规则可以控制服务间的流量走向和 API 调用，基于这些规则可以实现在运行期动态的调整服务行为如超时时间、重试次数、限流参数等，通过控制流量分布可以实现 A/B 测试、金丝雀发布、多版本按比例流量分配、条件匹配路由、黑白名单等，提高系统稳定性。&lt;/p>
+&lt;h4 id="dubbo-流量管控能解决哪些问题">Dubbo 流量管控能解决哪些问题&lt;/h4>
 &lt;p>场景一：搭建多套独立的逻辑测试环境。&lt;/p>
 &lt;p>场景二：搭建一套完全隔离的线上灰度环境用来部署新版本服务。&lt;/p>
 &lt;p>&lt;img src="http://static.dubbo.apache.org:8080/imgs/v3/tasks/gray/gray1.png" alt="gray1">&lt;/p>
@@ -152,69 +73,118 @@
 &lt;li>实例临时拉黑&lt;/li>
 &lt;li>指定机器导流&lt;/li>
 &lt;/ul>
-&lt;p>可以在 &lt;a href="../../../tasks/traffic-management/">流量管理任务&lt;/a> 中了解以上实践场景细节。&lt;/p></description></item><item><title>Overview: 可观测性</title><link>http://static.dubbo.apache.org:8080/zh/overview/what/advantages/observability/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/what/advantages/observability/</guid><description>
-&lt;p>Dubbo 内部维护了多个纬度的可观测指标，并且支持多种方式的可视化监测。可观测性指标从总体上来说分为三个度量纬度：&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;strong>Metrics。&lt;/strong> Dubbo 统计了一系列的流量指标如 QPS、RT、成功请求数、失败请求数等，还包括一系列的内部组件状态如线程池数、服务健康状态等。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Tracing。&lt;/strong> Dubbo 与业界主流的链路追踪工作做了适配，包括 Skywalking、Zipkin、Jaeger 都支持 Dubbo 服务的链路追踪。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Logging。&lt;/strong> Dubbo 支持多种日志框架适配。以 Java 体系为例，支持包括 Slf4j、Log4j2、Log4j、Logback、Jcl 等，用户可以基于业务需要选择合适的框架；同时 Dubbo 还支持 Access Log 记录请求踪迹。&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="metrics">Metrics&lt;/h2>
-&lt;p>Dubbo 运行时统计了包括 qps、rt、调用总数、成功数、失败数，失败原因统计等在内的核心服务指标，同时，为了更好的监测服务运行状态，Dubbo 还提供了对核心组件状态的监控，如线程池数量、服务健康状态等。&lt;/p>
-&lt;p>可以通过 Dubbo Admin 可视化的查看 Metrics 指标&lt;/p>
-&lt;p>&lt;img src="http://static.dubbo.apache.org:8080/imgs/v3/advantages/observability-grafana.png" alt="Admin 效果图">&lt;/p>
-&lt;p>也可以使用 Grafana、Prometheus 等实现可视化指标监测，具体请参考以下可视化任务示例：&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="">Admin 任务链接&lt;/a>&lt;/li>
-&lt;li>&lt;a href="">Grafana 任务链接&lt;/a>&lt;/li>
-&lt;li>&lt;a href="">Prometheus 任务链接&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="tracing">Tracing&lt;/h2>
-&lt;p>全链路追踪对于监测分布式系统运行状态具有非常重要的价值，Dubbo 通过 Filter 拦截器实现了请求运行时的埋点跟踪，通过将跟踪数据导出到一些主流实现如 Zipkin、Skywalking、Jaeger 等，可以实现全链路跟踪数据的分析与可视化展示。&lt;/p>
-&lt;p>&lt;img src="http://static.dubbo.apache.org:8080/imgs/v3/advantages/observability-tracing.png" alt="Admin 效果图">&lt;/p>
-&lt;p>只需要简单的一行配置即可切换链路跟踪的后端实现，并且，你可以随时通过 Dubbo Admin 等治理平台动态调整 Dubbo 的链路追踪采样率，对于问题排查都非常有价值。&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="">基于 Skywalking 实现全链路追踪&lt;/a>&lt;/li>
-&lt;li>&lt;a href="">基于 Zipkin 实现全链路追踪&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="logging">Logging&lt;/h2>
-&lt;p>访问日志可以帮助分析系统的流量情况，在有些场景下，开启访问日志对于排查问题也非常有帮助。&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="">开启 Access Log&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Overview: 可扩展性</title><link>http://static.dubbo.apache.org:8080/zh/overview/what/advantages/extensibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/what/advantages/extensibility/</guid><description>
-&lt;p>Dubbo 从设计上是高度可扩展的，通过这些扩展点你可以做到：&lt;/p>
-&lt;ul>
-&lt;li>拦截流量并控制流量行为&lt;/li>
-&lt;li>按需调优 Dubbo 的一些默认策略与实现&lt;/li>
-&lt;li>将 Dubbo 服务适配到公司内部微服务集群或其他主流的开源组件&lt;/li>
-&lt;/ul>
-&lt;h2 id="一切皆可扩展">一切皆可扩展&lt;/h2>
-&lt;p>Dubbo 扩展能力使得 Dubbo 项目很方便的切分成一个一个的子模块，实现热插拔特性。用户完全可以基于自身需求，替换 Dubbo 原生实现，来满足自身业务需求。&lt;/p>
-&lt;p>&lt;img src="http://static.dubbo.apache.org:8080/imgs/v3/advantages/extensibility.png" alt="Admin 效果图">&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>协议与编码扩展&lt;/strong>。通信协议、序列化编码协议等&lt;/li>
-&lt;li>&lt;strong>流量管控扩展&lt;/strong>。集群容错策略、路由规则、负载均衡、限流降级、熔断策略等&lt;/li>
-&lt;li>&lt;strong>服务治理扩展&lt;/strong>。注册中心、配置中心、元数据中心、分布式事务、全链路追踪、监控系统等&lt;/li>
-&lt;li>&lt;strong>诊断与调优扩展&lt;/strong>。流量统计、线程池策略、日志、QoS 运维命令、健康检查、配置加载等&lt;/li>
-&lt;/ul>
-&lt;p>可参考这篇文档了解更多 &lt;a href="../../../core-features/extensibility/">扩展点定义&lt;/a>&lt;/p>
-&lt;h2 id="扩展示例">扩展示例&lt;/h2>
-&lt;p>以下示例演示了如何扩展 Dubbo 来解决实际问题，可以跟随示例学习。&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="">自定义负载均衡策略&lt;/a>&lt;/li>
-&lt;li>&lt;a href="">自定义注册中心&lt;/a>&lt;/li>
-&lt;li>&lt;a href="">自定义拦截器&lt;/a>&lt;/li>
-&lt;/ul>
+&lt;p>可以在 &lt;a href="../../../tasks/traffic-management/">流量管理任务&lt;/a> 中了解以上实践场景细节。背后的规则定义与工作原理请参见 &lt;a href="../../../core-features/traffic/">Dubbo 流量管控规则设计与定义&lt;/a>。。&lt;/p>
 &lt;h2 id="微服务生态">微服务生态&lt;/h2>
-&lt;p>通过扩展对接微服务生态的示例。&lt;/p>
+&lt;p>围绕 Dubbo 我们构建了完善的微服务治理生态，对于绝大多数服务治理需求，通过简单几行配置即可开启。对于官方尚未适配的组件或者用户内部系统，也可以通过 Dubbo 扩展机制轻松适配。&lt;/p>
+&lt;p>&lt;img src="http://static.dubbo.apache.org:8080/imgs/v3/what/governance.png" alt="governance">&lt;/p>
+&lt;h2 id="可视化控制台">可视化控制台&lt;/h2>
+&lt;p>Dubbo Admin 是 Dubbo 官方提供的可视化 Web 交互控制台，基于 Admin 你可以实时监测集群流量、服务部署状态、排查诊断问题。&lt;/p>
+&lt;h2 id="安全体系">安全体系&lt;/h2>
+&lt;p>Dubbo 支持基于 TLS 的 HTTP、HTTP/2、TCP 数据传输通道，并且提供认证、鉴权策略，让开发者实现更细粒度的资源访问控制。&lt;/p>
+&lt;h2 id="服务网格">服务网格&lt;/h2>
+&lt;p>基于 Dubbo 开发的服务可以透明的接入 Istio 等服务网格体系，Dubbo 支持基于 Envoy 的流量拦截方式，也支持更加轻量的 Proxyless Mesh 部署模式。&lt;/p></description></item><item><title>Overview: 生产环境验证</title><link>http://static.dubbo.apache.org:8080/zh/overview/what/advantages/production-ready/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/what/advantages/production-ready/</guid><description>
+&lt;p>Apache Dubbo 是一款有着数以万计企业用户的国际化开源项目，经过了多年大规模集群生产环境的检验，影响了数百万开发者，带动了大量微服务开源生态发展。Dubbo 从企业实践中孵化并走向开源，又迅速在开源社区获得了成功，大量的生产实践用户是 Dubbo 长期保持先进性、稳定性和活跃度的核心驱动力。&lt;/p>
+&lt;h2 id="dubbo-在阿里巴巴的应用">Dubbo 在阿里巴巴的应用&lt;/h2>
+&lt;p>Dubbo 设计用于解决阿里巴巴内部复杂的电商微服务集群的开发和治理问题，在 2020 年，阿里巴巴与 Apache Dubbo 社区共同合作，基于 Dubbo2 &amp;amp; HSF2 发布了面向云原生架构的下一代服务框架 - Dubbo3，目前，Dubbo3 已经完全取代 HSF、Dubbo2 成为阿里巴巴内部统一的服务框架，成功的跑在了数十万应用、数百万节点的双十一集群之上。&lt;/p>
+&lt;p>Dubbo3 吸取了 HSF2 框架所有大规模微服务集群的治理经验，解决了 Dubbo2 架构设计上长期积累的一些缺陷，同时增加了一系列面向云原生架构的新特性。&lt;/p>
+&lt;p>&lt;img src="http://static.dubbo.apache.org:8080/imgs/v3/advantages/production-ready.png" alt="production-ready">&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="">全链路追踪&lt;/a>&lt;/li>
-&lt;li>&lt;a href="">数据一致性&lt;/a>&lt;/li>
-&lt;li>&lt;a href="">限流降级&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;li>阿里巴巴结合 HSF 框架的大规模集群实践经验，基于 Apache Dubbo、开源社区需求等推出了面向云原生架构的全新服务框架 - Dubbo3，Dubbo3 在完全兼容之前 API 模式的情况下，完成了彻底的云原生架构升级。&lt;/li>
+&lt;li>Dubbo 的高度可扩展能力是其广泛适用的重要前提，阿里巴巴基于 Dubbo3 内核维护了一套内部特有的适配插件体系以实现平滑升级，这包括注册中心扩展、路由组件扩展、监控组件扩展等。&lt;/li>
+&lt;li>几乎所有主流云厂商、主流微服务开源社区都提供了 Dubbo 适配或托管服务。&lt;/li>
+&lt;/ul>
+&lt;p>关于阿里巴巴 Dubbo3 应用的更多细节，请参见 &lt;a href="../../../blog">博客文章&lt;/a>&lt;/p>
+&lt;h2 id="更多案例">更多案例&lt;/h2>
+&lt;p>据 &lt;a href="https://github.com/apache/dubbo/issues/1012">Wanted, Who&amp;rsquo;s Using Dubbo&lt;/a> 统计，Dubbo 已知部分典型用户包括：&lt;/p>
+&lt;p>网联清算、银联商务、中国人寿、中国平安、中国银行、人民银行、工商银行、招商证券、平安保险、中国人寿、阿里巴巴、滴滴出行、携程网、小米、斗鱼直播、瓜子二手车、金蝶、亚信科技、中国电信、文思海辉、中科软、科大讯飞、恒生电子、红星凯美龙、海尔、新东方、软通动力、中远海运、昆明航空、中通快递、顺丰科技、普华永道等。&lt;/p>
+&lt;div class="row c-testimonials">&lt;div class="col-12 col-sm-6 col-lg-2 c-testimonials__testimonial">
+&lt;a href="https://dubbo.apache.org" target="_blank" rel="noopener">
+&lt;img class="used-by-logo" src="http://static.dubbo.apache.org:8080/imgs/user/logo/users_alibaba.png" alt="阿里巴巴 testimonial logo">
+&lt;/a>
+&lt;/div>
+&lt;div class="col-12 col-sm-6 col-lg-2 c-testimonials__testimonial">
+&lt;a href="https://dubbo.apache.org" target="_blank" rel="noopener">
+&lt;img class="used-by-logo" src="http://static.dubbo.apache.org:8080/imgs/user/logo/users_chinalife.png" alt="中国人寿 testimonial logo">
+&lt;/a>
+&lt;/div>
+&lt;div class="col-12 col-sm-6 col-lg-2 c-testimonials__testimonial">
+&lt;a href="https://dubbo.apache.org" target="_blank" rel="noopener">
+&lt;img class="used-by-logo" src="http://static.dubbo.apache.org:8080/imgs/user/logo/users_ctrip.png" alt="携程网 testimonial logo">
+&lt;/a>
+&lt;/div>
+&lt;div class="col-12 col-sm-6 col-lg-2 c-testimonials__testimonial">
+&lt;a href="https://dubbo.apache.org" target="_blank" rel="noopener">
+&lt;img class="used-by-logo" src="http://static.dubbo.apache.org:8080/imgs/user/logo/users_didi.png" alt="滴滴 testimonial logo">
+&lt;/a>
+&lt;/div>
+&lt;div class="col-12 col-sm-6 col-lg-2 c-testimonials__testimonial">
+&lt;a href="https://dubbo.apache.org" target="_blank" rel="noopener">
+&lt;img class="used-by-logo" src="http://static.dubbo.apache.org:8080/imgs/user/logo/users_haier.png" alt="海尔集团 testimonial logo">
+&lt;/a>
+&lt;/div>
+&lt;div class="col-12 col-sm-6 col-lg-2 c-testimonials__testimonial">
+&lt;a href="https://dubbo.apache.org" target="_blank" rel="noopener">
+&lt;img class="used-by-logo" src="http://static.dubbo.apache.org:8080/imgs/user/logo/users_icbc.png" alt="工商银行 testimonial logo">
+&lt;/a>
+&lt;/div>
+&lt;div class="col-12 col-sm-6 col-lg-2 c-testimonials__testimonial">
+&lt;a href="https://dubbo.apache.org" target="_blank" rel="noopener">
+&lt;img class="used-by-logo" src="http://static.dubbo.apache.org:8080/imgs/user/logo/users_kingdee.png" alt="金蝶 testimonial logo">
+&lt;/a>
+&lt;/div>
+&lt;div class="col-12 col-sm-6 col-lg-2 c-testimonials__testimonial">
+&lt;a href="https://dubbo.apache.org" target="_blank" rel="noopener">
+&lt;img class="used-by-logo" src="http://static.dubbo.apache.org:8080/imgs/user/logo/users_kunming.png" alt="昆明航空 testimonial logo">
+&lt;/a>
+&lt;/div>
+&lt;div class="col-12 col-sm-6 col-lg-2 c-testimonials__testimonial">
+&lt;a href="https://dubbo.apache.org" target="_blank" rel="noopener">
+&lt;img class="used-by-logo" src="http://static.dubbo.apache.org:8080/imgs/user/logo/users_telecom.png" alt="中国电信 testimonial logo">
+&lt;/a>
+&lt;/div>
+&lt;div class="col-12 col-sm-6 col-lg-2 c-testimonials__testimonial">
+&lt;a href="https://dubbo.apache.org" target="_blank" rel="noopener">
+&lt;img class="used-by-logo" src="http://static.dubbo.apache.org:8080/imgs/user/logo/users_wanglian.png" alt="网联清算 testimonial logo">
+&lt;/a>
+&lt;/div>
+&lt;div class="col-12 col-sm-6 col-lg-2 c-testimonials__testimonial">
+&lt;a href="https://dubbo.apache.org" target="_blank" rel="noopener">
+&lt;img class="used-by-logo" src="http://static.dubbo.apache.org:8080/imgs/user/logo/users_xunfei.png" alt="科大讯飞 testimonial logo">
+&lt;/a>
+&lt;/div>
+&lt;div class="col-12 col-sm-6 col-lg-2 c-testimonials__testimonial">
+&lt;a href="https://dubbo.apache.org" target="_blank" rel="noopener">
+&lt;img class="used-by-logo" src="http://static.dubbo.apache.org:8080/imgs/user/logo/users_yinlian.png" alt="银联商务 testimonial logo">
+&lt;/a>
+&lt;/div>
+&lt;div class="col-12 col-sm-6 col-lg-2 c-testimonials__testimonial">
+&lt;a href="https://dubbo.apache.org" target="_blank" rel="noopener">
+&lt;img class="used-by-logo" src="http://static.dubbo.apache.org:8080/imgs/user/logo/users_zto.png" alt="中通快递 testimonial logo">
+&lt;/a>
+&lt;/div>
+&lt;div class="col-12 col-sm-6 col-lg-2 c-testimonials__testimonial">
+&lt;a href="https://dubbo.apache.org" target="_blank" rel="noopener">
+&lt;img class="used-by-logo" src="http://static.dubbo.apache.org:8080/imgs/user/logo/users_mi.png" alt="小米 testimonial logo">
+&lt;/a>
+&lt;/div>
+&lt;div class="col-12 col-sm-6 col-lg-2 c-testimonials__testimonial">
+&lt;a href="https://dubbo.apache.org" target="_blank" rel="noopener">
+&lt;img class="used-by-logo" src="http://static.dubbo.apache.org:8080/imgs/user/logo/users_pingan.png" alt="中国平安 testimonial logo">
+&lt;/a>
+&lt;/div>
+&lt;div class="col-12 col-sm-6 col-lg-2 c-testimonials__testimonial">
+&lt;a href="https://dubbo.apache.org" target="_blank" rel="noopener">
+&lt;img class="used-by-logo" src="http://static.dubbo.apache.org:8080/imgs/user/logo/users_asiainfo.png" alt="亚信科技 testimonial logo">
+&lt;/a>
+&lt;/div>
+&lt;div class="col-12 col-sm-6 col-lg-2 c-testimonials__testimonial">
+&lt;a href="https://dubbo.apache.org" target="_blank" rel="noopener">
+&lt;img class="used-by-logo" src="http://static.dubbo.apache.org:8080/imgs/user/logo/users_renmin.png" alt="人民银行 testimonial logo">
+&lt;/a>
+&lt;/div>
+&lt;div class="col-12 col-sm-6 col-lg-2 c-testimonials__testimonial">
+&lt;a href="https://dubbo.apache.org" target="_blank" rel="noopener">
+&lt;img class="used-by-logo" src="http://static.dubbo.apache.org:8080/imgs/user/logo/users_acmedcare.png" alt="Acmedcare testimonial logo">
+&lt;/a>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

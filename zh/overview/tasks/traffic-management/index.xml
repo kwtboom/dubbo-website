@@ -163,6 +163,7 @@
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#268bd2">configVersion&lt;/span>: v3.0
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#268bd2">enabled&lt;/span>: &lt;span style="color:#cb4b16">true&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#268bd2">force&lt;/span>: &lt;span style="color:#cb4b16">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#268bd2">key&lt;/span>: org.apache.dubbo.samples.CommentService
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#268bd2">conditions&lt;/span>:
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#2aa198">&amp;#39;=&amp;gt; region = $region&amp;#39;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>这里使用的是条件路由，&lt;code>region&lt;/code> 为我们示例中的区域标识，会自动的识别当前发起调用的一方所在的区域值，当请求到达 &lt;code>hangzhou&lt;/code> 区域部署的 Detail 后，从 Detail 发出的请求自动筛选 URL 地址中带有 &lt;code>region=hangzhou&lt;/code> 标识的 Comment 地址，如果发现有可用的地址子集则将请求发出，如果没有匹配条件的地址，则随机发往任意可用区地址。&lt;/p>

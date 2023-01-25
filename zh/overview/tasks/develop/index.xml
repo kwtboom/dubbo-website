@@ -1,1 +1,49 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Apache Dubbo – 开发服务</title><link>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/</link><description>Recent content in 开发服务 on Apache Dubbo</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/index.xml" rel="self" type="application/rss+xml"/><item><title>Overview: 通过模板生成项目脚手架</title><link>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/template/</guid><description/></item><item><title>Overview: 发布和调用 Dubbo 服务</title><link>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/service_reference/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/service_reference/</guid><description/></item><item><title>Overview: 异步调用</title><link>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/async/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/async/</guid><description/></item><item><title>Overview: 版本与分组</title><link>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/version_group/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/version_group/</guid><description/></item><item><title>Overview: 上下文参数传递</title><link>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/context/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/context/</guid><description/></item><item><title>Overview: 泛化调用</title><link>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/generic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/generic/</guid><description/></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Apache Dubbo – 开发服务</title><link>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/</link><description>Recent content in 开发服务 on Apache Dubbo</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/index.xml" rel="self" type="application/rss+xml"/><item><title>Overview: 通过模板生成项目脚手架</title><link>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/template/</guid><description/></item><item><title>Overview: 发布和调用 Dubbo 服务</title><link>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/service_reference/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/service_reference/</guid><description/></item><item><title>Overview: 异步调用</title><link>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/async/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/async/</guid><description/></item><item><title>Overview: 版本与分组</title><link>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/version_group/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/version_group/</guid><description/></item><item><title>Overview: 上下文参数传递</title><link>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/context/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/context/</guid><description/></item><item><title>Overview: 泛化调用</title><link>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/generic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/generic/</guid><description/></item><item><title>Overview: 通信协议</title><link>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/protocols/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/protocols/</guid><description>
+&lt;section id="section-0" style="">
+&lt;div class="td-content list-page">
+&lt;div class="lead">&lt;/div>&lt;header class="article-meta">
+&lt;/header>&lt;div class="row">
+&lt;div class="col-sm col-md-6 mb-4">
+&lt;div class="h-100 card shadow" href="#">
+&lt;div class="card-body">
+&lt;h4 class="card-title">
+&lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/protocols/triple/'>基于 HTTP/2 的 Dubbo3 通信协议&lt;/a>
+&lt;/h4>
+&lt;p>使用 IDL 定义跨语言服务&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm col-md-6 mb-4">
+&lt;div class="h-100 card shadow" href="#">
+&lt;div class="card-body">
+&lt;h4 class="card-title">
+&lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/protocols/triple/'>基于 TCP 的 Dubbo2 通信协议&lt;/a>
+&lt;/h4>
+&lt;p>Pojo 序列化兼容模式&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm col-md-6 mb-4">
+&lt;div class="h-100 card shadow" href="#">
+&lt;div class="card-body">
+&lt;h4 class="card-title">
+&lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/protocols/triple/'>HTTP 通信协议&lt;/a>
+&lt;/h4>
+&lt;p>Stream 通信模式&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm col-md-6 mb-4">
+&lt;div class="h-100 card shadow" href="#">
+&lt;div class="card-body">
+&lt;h4 class="card-title">
+&lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/protocols/triple/'>gRPC 通信协议&lt;/a>
+&lt;/h4>
+&lt;p>Stream 通信模式&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;hr>
+&lt;/div>
+&lt;/section></description></item></channel></rss>

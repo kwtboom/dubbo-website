@@ -3,7 +3,7 @@
 &lt;div class="td-content list-page">
 &lt;div class="lead">&lt;/div>&lt;header class="article-meta">
 &lt;/header>&lt;div class="row">
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow" href="#">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
@@ -13,7 +13,7 @@
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow" href="#">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
@@ -23,7 +23,7 @@
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow" href="#">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
@@ -33,7 +33,7 @@
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow" href="#">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
@@ -43,7 +43,7 @@
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow" href="#">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
@@ -53,11 +53,21 @@
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow" href="#">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
 &lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/generic/'>泛化调用&lt;/a>
+&lt;/h4>
+&lt;p>&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm col-md-6 mb-4">
+&lt;div class="h-100 card shadow" href="#">
+&lt;div class="card-body">
+&lt;h4 class="card-title">
+&lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/develop/protocols/'>通信协议&lt;/a>
 &lt;/h4>
 &lt;p>&lt;/p>
 &lt;/div>
@@ -71,7 +81,7 @@
 &lt;div class="td-content list-page">
 &lt;div class="lead">&lt;/div>&lt;header class="article-meta">
 &lt;/header>&lt;div class="row">
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow" href="#">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
@@ -81,7 +91,7 @@
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow" href="#">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
@@ -91,7 +101,7 @@
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow" href="#">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
@@ -259,7 +269,7 @@
 &lt;div class="td-content list-page">
 &lt;div class="lead">&lt;/div>&lt;header class="article-meta">
 &lt;/header>&lt;div class="row">
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow" href="#">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
@@ -269,7 +279,7 @@
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
@@ -279,7 +289,7 @@
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
@@ -289,7 +299,7 @@
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
@@ -299,7 +309,7 @@
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
@@ -309,7 +319,7 @@
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
@@ -319,7 +329,7 @@
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
@@ -329,7 +339,7 @@
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
@@ -339,7 +349,7 @@
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
@@ -349,7 +359,7 @@
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
@@ -362,98 +372,38 @@
 &lt;/div>
 &lt;hr>
 &lt;/div>
-&lt;/section></description></item><item><title>Overview: 通信协议</title><link>http://static.dubbo.apache.org:8080/zh/overview/tasks/protocols/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/tasks/protocols/</guid><description>
-&lt;section id="section-0" style="">
-&lt;div class="td-content list-page">
-&lt;div class="lead">&lt;/div>&lt;header class="article-meta">
-&lt;/header>&lt;div class="row">
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
-&lt;div class="h-100 card shadow" href="#">
-&lt;div class="card-body">
-&lt;h4 class="card-title">
-&lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/protocols/triple/'>基于 HTTP/2 的 Dubbo3 通信协议&lt;/a>
-&lt;/h4>
-&lt;p>使用 IDL 定义跨语言服务&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
-&lt;div class="h-100 card shadow" href="#">
-&lt;div class="card-body">
-&lt;h4 class="card-title">
-&lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/protocols/triple/'>基于 TCP 的 Dubbo2 通信协议&lt;/a>
-&lt;/h4>
-&lt;p>Pojo 序列化兼容模式&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
-&lt;div class="h-100 card shadow" href="#">
-&lt;div class="card-body">
-&lt;h4 class="card-title">
-&lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/protocols/triple/'>HTTP 通信协议&lt;/a>
-&lt;/h4>
-&lt;p>Stream 通信模式&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
-&lt;div class="h-100 card shadow" href="#">
-&lt;div class="card-body">
-&lt;h4 class="card-title">
-&lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/protocols/triple/'>gRPC 通信协议&lt;/a>
-&lt;/h4>
-&lt;p>Stream 通信模式&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;hr>
-&lt;/div>
 &lt;/section></description></item><item><title>Overview: 观测服务</title><link>http://static.dubbo.apache.org:8080/zh/overview/tasks/observability/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/tasks/observability/</guid><description/></item><item><title>Overview: 自定义扩展</title><link>http://static.dubbo.apache.org:8080/zh/overview/tasks/extensibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/tasks/extensibility/</guid><description/></item><item><title>Overview: 服务网格</title><link>http://static.dubbo.apache.org:8080/zh/overview/tasks/mesh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://static.dubbo.apache.org:8080/zh/overview/tasks/mesh/</guid><description>
 &lt;section id="section-0" style="">
 &lt;div class="td-content list-page">
 &lt;div class="lead">&lt;/div>&lt;header class="article-meta">
 &lt;/header>&lt;div class="row">
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow" href="#">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
-&lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/mesh/dubbo-mesh/'>Istio + Sidecar + Thin SDK&lt;/a>
+&lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/mesh/bookinfo-sidecar/'>Istio &amp; Envoy Bookinfo 示例&lt;/a>
 &lt;/h4>
-&lt;p>演示 Dubbo3 的 Sidecar Mesh 形态，可完整接入 Istio 的服务治理能力，此方案限定 Dubbo3 应用级服务发现。&lt;/p>
+&lt;p>演示 Dubbo 服务接入基于 Envoy 代理的 Istio 服务网格体系。&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
-&lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/mesh/dubbo-mesh/'>Istio + Proxyless&lt;/a>
+&lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/mesh/bookinfo-proxyless/'>Istio &amp; Proxyless Bookinfo 示例&lt;/a>
 &lt;/h4>
-&lt;p>无 Sidecar 的 Dubbo3 Proxyless Mesh 形态，可完整接入 Istio 的服务治理能力，此方案限定 Dubbo3 应用级服务发现。&lt;/p>
+&lt;p>演示 Dubbo Proxyless 接入 Istio 服务网格体系。&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
+&lt;div class="col-sm col-md-6 mb-4">
 &lt;div class="h-100 card shadow">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
-&lt;!-- &lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/mesh/dubbo-mesh/'>Dubbo Control Plane + Thin SDK (TBD)&lt;/a> -->
-&lt;p>Dubbo Control Plane + Thin SDK (文档建设中)&lt;/p>
+&lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/mesh/migration/'>老集群平滑迁移&lt;/a>
 &lt;/h4>
-&lt;p>&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm col-md-6 mb-4 mb-md-0">
-&lt;div class="h-100 card shadow">
-&lt;div class="card-body">
-&lt;h4 class="card-title">
-&lt;!-- &lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/mesh/dubbo-mesh/'>Dubbo Control Plane + Proxyless (TBD)&lt;/a> -->
-&lt;p>Dubbo Control Plane + Proxyless (文档建设中)&lt;/p>
-&lt;/h4>
-&lt;p>&lt;/p>
+&lt;p>演示传统 Dubbo 微服务集群如何平滑迁移到 Istio 服务网格&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;/div>
