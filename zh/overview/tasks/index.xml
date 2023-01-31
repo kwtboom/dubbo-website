@@ -85,9 +85,9 @@
 &lt;div class="h-100 card shadow" href="#">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
-&lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/deploy/deploy-on-k8s/'>传统虚拟机环境部署&lt;/a>
+&lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/deploy/deploy-on-vm/'>虚拟机环境部署&lt;/a>
 &lt;/h4>
-&lt;p>&lt;/p>
+&lt;p>部署在虚拟机环境&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -95,9 +95,9 @@
 &lt;div class="h-100 card shadow" href="#">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
-&lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/deploy/deploy-on-k8s/'>Docker 环境部署&lt;/a>
+&lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/deploy/deploy-on-docker/'>Docker 部署&lt;/a>
 &lt;/h4>
-&lt;p>以 API-SERVER 为注册中心，将 Dubbo 应用部署到 Kubernetes 并复用 Kubernetes Native Service 的使用示例&lt;/p>
+&lt;p>部署在 docker 环境&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -105,9 +105,19 @@
 &lt;div class="h-100 card shadow" href="#">
 &lt;div class="card-body">
 &lt;h4 class="card-title">
-&lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/mesh/'>Kubernetes 部署&lt;/a>
+&lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/deploy/deploy-on-k8s-docker/'>Kubernetes + Docker 部署&lt;/a>
 &lt;/h4>
-&lt;p>通过 Dubbo Control Plane 屏蔽服务治理细节，保留适配 kubernetes 原生能力的同时从架构上实现数据面与 kubernetes 的解耦，避免数据面与 kubernetes 直接通信带来的各种问题。&lt;br/>&lt;br/>具体请参见 Mesh解决方案 小节&lt;/p>
+&lt;p>部署在 docker 环境的 kubernetes&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm col-md-6 mb-4">
+&lt;div class="h-100 card shadow" href="#">
+&lt;div class="card-body">
+&lt;h4 class="card-title">
+&lt;a href='http://static.dubbo.apache.org:8080/zh/overview/tasks/deploy/deploy-on-k8s-containerd/'>Kubernetes + Containerd 部署&lt;/a>
+&lt;/h4>
+&lt;p>部署在 containerd 环境的 kubernetes &lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;/div>
